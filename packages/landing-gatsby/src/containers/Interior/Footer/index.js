@@ -5,6 +5,7 @@ import { Icon } from 'react-icons-kit';
 import { facebook } from 'react-icons-kit/fa/facebook';
 import { dribbble } from 'react-icons-kit/fa/dribbble';
 import { googlePlus } from 'react-icons-kit/fa/googlePlus';
+import {instagram} from 'react-icons-kit/fa/instagram'
 import { skype } from 'react-icons-kit/fa/skype';
 import { twitter } from 'react-icons-kit/fa/twitter';
 import Box from 'common/components/Box';
@@ -24,12 +25,12 @@ const socialLinks = [
     id: 1,
     icon: <Icon icon={facebook} />,
     name: 'facebook',
-    link: '#',
+    link: 'https://www.facebook.com/dreamtrim.moulding',
   },
   {
     id: 2,
-    icon: <Icon icon={dribbble} />,
-    name: 'dribbble',
+    icon: <Icon icon={instagram} />,
+    name: 'instagram',
     link: '#',
   },
   {
@@ -38,18 +39,7 @@ const socialLinks = [
     name: 'googlePlus',
     link: '#',
   },
-  {
-    id: 4,
-    icon: <Icon icon={skype} />,
-    name: 'skype',
-    link: '#',
-  },
-  {
-    id: 5,
-    icon: <Icon icon={twitter} />,
-    name: 'twitter',
-    link: '#',
-  },
+  
 ];
 
 const Footer = ({ row, col, colOne, colTwo }) => {

@@ -322,6 +322,12 @@ const InteriorWrapper = styled.div`
       padding: 16px 0;
       background-color: ${themeGet('colors.white', '#ffffff')};
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      .main-logo {
+        display: none;
+      }
+      .logo-alt {
+        display: block;
+      }
 
       .reusecore__button {
         color: ${themeGet('colors.heading', '#060F1E')};

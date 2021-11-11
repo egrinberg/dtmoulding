@@ -51,7 +51,7 @@ export const AppWrapper = styled.div`
   flex-direction: column;
   min-height: 100vh;
 
-  .sticky-active {
+  .sticky-active { 
     .navbar {
       padding: 20px 0 21px;
       background-color: ${themeGet('colors.white', '#ffffff')};

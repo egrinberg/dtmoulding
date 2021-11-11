@@ -17,6 +17,7 @@ import LoginModal from '../LoginModal';
 import Copyright from '../Copyright';
 
 import logo from 'common/assets/image/interior/logo_dt.jpg';
+import LogoImageAlt from 'common/assets/image/interior/logo_dt_alt.svg';
 
 const CloseModalButton = () => (
   <Button
@@ -110,10 +111,19 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
   return (
     <NavbarWrapper {...navbarStyle}>
       <Container>
+        
         <Logo
           href="/interior"
           logoSrc={logo}
           title="Interior"
+          className="main-logo"
+          logoStyle={logoStyle}
+        />
+        <Logo
+          href="/interior"
+          logoSrc={LogoImageAlt}
+          title="Interior"
+          className="logo-alt"
           logoStyle={logoStyle}
         />
         <div style={{ display: 'flex', alignItems: 'center' }}>

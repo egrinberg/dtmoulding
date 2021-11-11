@@ -14,7 +14,7 @@ const Copyright = ({ data }) => {
           </li>
         ))}
       </ul>
-      <Text content="Copyrights 2019 @RedQ Inc" />
+      <Text content="Copyrights 2020 @Dream Trim Moulding Inc" />
     </CopyrightWrapper>
   );
 };
